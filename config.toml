@@ -1,0 +1,16 @@
+baseURL = "https://maxime-cls.github.io/argocd-tutorial/"
+title = "ArgoCD Tutoriel"
+theme = "hugo-theme-relearn"
+languageCode = "fr-FR"
+languageName = "Français"
+
+[params]
+themeVariant = "blue"
+author = "Maxime Calves"
+description = "Tutoriel sur ArgoCD"
+showVisitedLinks = true
+disableSearch = false
+disableLandingPageButton = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
