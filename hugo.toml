@@ -9,7 +9,7 @@ languageName = "Français"
     path = 'github.com/McShelby/hugo-theme-relearn'
 
 [params]
-themeVariant = ['relearn-light']
+themeVariant = ['blue']
 showVisitedLinks = true
 disableSearch = false
 disableLandingPageButton = true
