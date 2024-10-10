@@ -50,7 +50,7 @@ Appliquez l'application CR en exécutant la commande suivante :
 kubectl apply -f bgd-app/bgd-app.yaml
 ```
 
-L'application nouvellement créée apparaît sous forme de tuile avec le titre bgd-appdans l'interface utilisateur du CD Argo.
+L'application nouvellement créée apparaît sous forme de tuile avec le titre bgd-app dans l'interface utilisateur du CD Argo.
 
 ![image](/argocd-tutorial/images/attachments/debutant/argocd-app1.png)
 

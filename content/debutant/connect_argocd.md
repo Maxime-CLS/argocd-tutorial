@@ -56,7 +56,7 @@ Exposez la console ArgoCD à l'aide du service minikube.
 http://127.0.0.1:59466
 ```
 
-Accédez à la console Argo CD en vous connectant avec le nom d'utilisateur adminet le mot de passe extraits à l'étape précédente :
+Accédez à la console Argo CD en vous connectant avec le nom d'utilisateur admin et le mot de passe extraits à l'étape précédente :
 
 ![image](/argocd-tutorial/images/attachments/debutant/argocd-login.png)
 

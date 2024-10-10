@@ -11,7 +11,7 @@ Maintenant que vous êtes familiarisé avec syncwaves, nous pouvons commencer à
 Le contrôle de votre opération de synchronisation peut être redéfini davantage en utilisant des hooks. Ces hooks peuvent s'exécuter avant, pendant et après une opération de synchronisation. Ces hooks sont :
 
 * PreSync – S'exécute avant l'opération de synchronisation. Il peut s'agir par exemple d'une sauvegarde de base de données avant un changement de schéma
-* Synchronisation - S'exécute après PreSyncune exécution réussie. Cela s'exécutera parallèlement à vos manifestes normaux.
+* Synchronisation - S'exécute après PreSync une exécution réussie. Cela s'exécutera parallèlement à vos manifestes normaux.
 * PostSync - S'exécute après Syncune exécution réussie. Il peut s'agir d'un message Slack ou d'une notification par e-mail.
 * SyncFail - S'exécute si l' Syncopération a échoué. Cette fonction est également utilisée pour envoyer des notifications ou effectuer d'autres actions évasives.
 
@@ -126,7 +126,7 @@ spec:
 ```
 
 
-Cela montrera que cela déploiera l’application dans le namsepace todo.
+Cela montrera que cela déploiera l’application dans le namespace todo.
 
 Créer cette application :
 

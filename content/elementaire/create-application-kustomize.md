@@ -115,7 +115,7 @@ patchesJson6902:
         value: bgdk.devnation
 ```
 
-Cela kustomization.yamlprend l'application de base et corrige le manifeste de sorte que nous obtenions un carré jaune au lieu d'un bleu. 
+Cela kustomization.yaml prend l'application de base et corrige le manifeste de sorte que nous obtenions un carré jaune au lieu d'un bleu. 
 
 Il déploie également l'application dans le namespace bgd (indiqué par la namespace:section du fichier) et met à jour le nom d'hôte Ingress pour ce nouvel espace de noms à bgdk.devnation.
 

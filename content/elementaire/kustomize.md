@@ -8,7 +8,7 @@ weight = 1
 
 Kustomize parcourt un manifeste Kubernetes pour ajouter, supprimer ou mettre à jour des options de configuration sans fork. Il est disponible à la fois en tant que binaire autonome et en tant que fonctionnalité native de kubectl.
 
-Les principes de kustomizesont :
+Les principes de kustomize sont :
 
 * Approche purement déclarative de la personnalisation de la configuration
 * Gérer un nombre arbitraire de configurations Kubernetes distinctement personnalisées
@@ -31,7 +31,7 @@ Cela devrait afficher la version, cela devrait ressembler à ceci.
 {kustomize/v4.0.5  2021-02-13T21:21:14Z  }
 ```
 
-Kustomize, à la base, est destiné à créer des manifestes Kubernetes natifs basés sur YAML, tout en laissant le YAML d'origine intact. Il y parvient dans un format de modèle « sans modèle ». Cela se fait en fournissant un kustomization.yamlfichier.
+Kustomize, à la base, est destiné à créer des manifestes Kubernetes natifs basés sur YAML, tout en laissant le YAML d'origine intact. Il y parvient dans un format de modèle « sans modèle ». Cela se fait en fournissant un kustomization.yaml fichier.
 
 Nous nous concentrerons sur deux sous-commandes : la build commande et la editcommande.
 
