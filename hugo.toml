@@ -15,4 +15,4 @@ disableSearch = false
 disableLandingPageButton = true
 
 [outputs]
-home = ["HTML", "RSS",]
+home = ["HTML", "RSS", 'search', 'searchpage']
